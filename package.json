@@ -1,0 +1,25 @@
+{
+  "name": "wattson",
+  "version": "0.0.0",
+  "description": "Wattson, the Hanze EE Server bot.",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damger9/Wattson.git"
+  },
+  "keywords": [
+    "wattson",
+    "discordbot",
+    "bot",
+    "discord"
+  ],
+  "author": "Not_H3",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/damger9/Wattson/issues"
+  },
+  "homepage": "https://github.com/damger9/Wattson#readme"
+}
