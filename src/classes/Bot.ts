@@ -6,7 +6,6 @@ export class Bot extends Client {
     public readonly InformativeLogging: boolean;
     public readonly DeveloperMode: boolean;
 
-
     constructor(clientOptions: ClientOptions) {
         super(clientOptions)
 
