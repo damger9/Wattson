@@ -1,2 +1,2 @@
 # Wattson
-Source code for Wattson, The Hanze EE Server Bot.
+Source code for Wattson, The (Electrical) Engineering Bot.
