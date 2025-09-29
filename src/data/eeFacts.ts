@@ -1418,6 +1418,14 @@ export const EE_FACTS: EEFact[] = [
         fact: 'The next 50 years will bring quantum computing, brain interfaces, and sustainable energy!',
         explanation: 'EEs will be at the forefront of solving climate change, healthcare, and information challenges.',
         difficulty: 'beginner'
+    },
+    {
+        id: 166,
+        category: 'fun',
+        title: 'Coding EE Skills in Practice',
+        fact: 'Did you know that Not_H3 used AI to code ts?'
+        explanation: "That's what free GitHub Copilot access from your college does"
+        difficulty: 'beginner'
     }
 ];
 
