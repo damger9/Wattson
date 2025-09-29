@@ -1,7 +1,7 @@
 import { GatewayIntentBits } from "discord.js";
-import { Bot } from "./classes/Bot";
+import { Bot as BotClass } from "./classes/Bot";
 
-const bot = new Bot({
+export const Bot = new BotClass({
     intents: [
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
