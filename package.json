@@ -1,7 +1,7 @@
 {
   "name": "wattson",
   "version": "0.0.0",
-  "description": "Wattson, the Hanze EE Server bot.",
+  "description": "Wattson, the EE bot.",
   "main": "src/index.ts",
   "scripts": {
     "build": "tsc --diagnostics && node scripts/version.js",
