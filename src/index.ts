@@ -4,6 +4,7 @@ import { Bot as BotClass } from "./classes/Bot";
 import { EEFactCommand } from "./commands/EEFactCommand";
 import { EEStatsCommand } from "./commands/EEStatsCommand";
 import { EEQuizCommand } from "./commands/EEQuizCommand";
+import { EE_FACTS } from "./data/eeFacts";
 
 export const Bot = new BotClass({
     intents: [
@@ -44,7 +45,7 @@ async function startBot() {
         
         console.log('🚀 Wattson started successfully!');
         console.log('💡 Use /eefact, /eestats, or /eequiz in Discord!');
-        
+        console.log(`📚 EE Facts Database: ${EE_FACTS.length} facts loaded`);
     } catch (error) {
         console.error('❌ Failed to start bot:', error);
         process.exit(1);
