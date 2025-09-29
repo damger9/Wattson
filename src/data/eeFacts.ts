@@ -788,6 +788,636 @@ export const EE_FACTS: EEFact[] = [
         fact: 'The first electronic calculator weighed 55 pounds and cost $2,500 in 1961!',
         explanation: 'The ANITA Mk VII used vacuum tubes and cold-cathode tubes, equivalent to about $25,000 today.',
         difficulty: 'beginner'
+    },
+
+    // More History Facts
+    {
+        id: 91,
+        category: 'history',
+        title: 'Silicon Valley Origins',
+        fact: 'Silicon Valley was named after the silicon used in transistors, not the fruit!',
+        explanation: 'The term was coined in 1971 by journalist Don Hoefler, referring to the semiconductor industry centered in Santa Clara Valley.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 92,
+        category: 'history',
+        title: 'First Computer Mouse',
+        fact: 'The computer mouse was invented in 1964 by Douglas Engelbart!',
+        explanation: 'It was originally a wooden box with two wheels, designed to help navigate complex computer interfaces.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 93,
+        category: 'history',
+        title: 'ARPANET Birth',
+        fact: 'ARPANET, the precursor to the internet, connected just 4 computers in 1969!',
+        explanation: 'The first message sent was "LO" - the system crashed before "LOGIN" could be completed.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 94,
+        category: 'history',
+        title: 'First Cell Phone Call',
+        fact: 'The first mobile phone call was made in 1973 by Martin Cooper!',
+        explanation: 'Cooper, a Motorola engineer, called his rival at Bell Labs from a 2.5-pound phone that took 10 hours to charge.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 95,
+        category: 'history',
+        title: 'WWW Invention',
+        fact: 'Tim Berners-Lee invented the World Wide Web in 1989 while working at CERN!',
+        explanation: 'He created HTML, HTTP, and the first web browser to help physicists share research documents.',
+        difficulty: 'beginner'
+    },
+
+    // More Component Facts
+    {
+        id: 96,
+        category: 'components',
+        title: 'LED Efficiency',
+        fact: 'Modern LEDs can convert 80% of electrical energy into light!',
+        explanation: 'Incandescent bulbs are only 5% efficient, while fluorescent bulbs reach about 20% efficiency.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 97,
+        category: 'components',
+        title: 'Crystal Oscillators',
+        fact: 'Quartz crystal oscillators can maintain accuracy within 1 second per year!',
+        explanation: 'The piezoelectric effect in quartz creates extremely stable frequencies used in clocks and communication systems.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 98,
+        category: 'components',
+        title: 'Varactor Diodes',
+        fact: 'Varactor diodes change capacitance with applied voltage!',
+        explanation: 'This property enables voltage-controlled tuning in radios and phase-locked loops.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 99,
+        category: 'components',
+        title: 'Hall Sensors',
+        fact: 'Hall effect sensors can detect magnetic fields as weak as Earth\'s magnetic field!',
+        explanation: 'They measure voltage perpendicular to both current and magnetic field, enabling contactless sensing.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 100,
+        category: 'components',
+        title: 'Photovoltaic Cells',
+        fact: 'Solar cells work by the photovoltaic effect discovered in 1839!',
+        explanation: 'Edmond Becquerel discovered that certain materials produce electricity when exposed to light.',
+        difficulty: 'intermediate'
+    },
+
+    // More Circuit Facts
+    {
+        id: 101,
+        category: 'circuits',
+        title: '555 Timer Versatility',
+        fact: 'The 555 timer chip is the most popular integrated circuit ever made!',
+        explanation: 'Over a billion are produced annually for applications from oscillators to pulse generators.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 102,
+        category: 'circuits',
+        title: 'Schmitt Trigger',
+        fact: 'Schmitt triggers prevent circuit chatter by having different threshold voltages!',
+        explanation: 'They use hysteresis to create clean digital signals from noisy analog inputs.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 103,
+        category: 'circuits',
+        title: 'Voltage Divider Rule',
+        fact: 'Voltage dividers work because current is the same through series resistors!',
+        explanation: 'The voltage drop across each resistor is proportional to its resistance value.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 104,
+        category: 'circuits',
+        title: 'Flyback Converters',
+        fact: 'Flyback converters can step voltage up or down using a single switch!',
+        explanation: 'They store energy in a transformer during the "on" cycle and release it during the "off" cycle.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 105,
+        category: 'circuits',
+        title: 'Phase-Locked Loops',
+        fact: 'PLLs can synchronize circuit frequencies to external signals!',
+        explanation: 'They compare phase differences and adjust frequency to maintain lock, essential for communication systems.',
+        difficulty: 'advanced'
+    },
+
+    // More Power Facts
+    {
+        id: 106,
+        category: 'power',
+        title: 'Nuclear Power Efficiency',
+        fact: 'Nuclear power plants convert only about 0.1% of uranium mass into energy!',
+        explanation: 'The remaining 99.9% becomes waste, but that tiny fraction powers entire cities for years.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 107,
+        category: 'power',
+        title: 'Solar Panel Degradation',
+        fact: 'Solar panels lose only about 0.5% efficiency per year!',
+        explanation: 'Modern panels are designed to last 25-30 years with minimal performance degradation.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 108,
+        category: 'power',
+        title: 'Wind Turbine Cut-in Speed',
+        fact: 'Wind turbines need at least 7-10 mph wind speed to start generating power!',
+        explanation: 'Below this speed, the energy extracted isn\'t worth the mechanical losses.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 109,
+        category: 'power',
+        title: 'Battery Chemistry',
+        fact: 'Lithium-ion batteries use lithium ions moving between electrodes!',
+        explanation: 'During discharge, Li+ ions move from anode to cathode; charging reverses the process.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 110,
+        category: 'power',
+        title: 'Fuel Cell Efficiency',
+        fact: 'Fuel cells can achieve 60% efficiency, much higher than combustion engines!',
+        explanation: 'They convert chemical energy directly to electricity without the Carnot limit of heat engines.',
+        difficulty: 'intermediate'
+    },
+
+    // More Signal Facts
+    {
+        id: 111,
+        category: 'signals',
+        title: 'Bluetooth Range',
+        fact: 'Bluetooth Class 1 devices can communicate up to 100 meters!',
+        explanation: 'Most consumer devices use Class 2 (10m) or Class 3 (1m) for power savings.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 112,
+        category: 'signals',
+        title: 'Morse Code Speed',
+        fact: 'Expert Morse code operators can send and receive over 40 words per minute!',
+        explanation: 'The world record is 75.2 words per minute, set in 1942.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 113,
+        category: 'signals',
+        title: 'Satellite Latency',
+        fact: 'Geostationary satellites add 240ms round-trip delay to signals!',
+        explanation: 'Light takes 0.24 seconds to travel 36,000 km to geostationary orbit and back.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 114,
+        category: 'signals',
+        title: 'FM vs AM Radio',
+        fact: 'FM radio has much better sound quality because it\'s less affected by noise!',
+        explanation: 'AM signals are amplitude-modulated and susceptible to interference, while FM uses frequency modulation.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 115,
+        category: 'signals',
+        title: 'Optical Fiber Bandwidth',
+        fact: 'A single optical fiber can carry more data than all the world\'s copper cables combined!',
+        explanation: 'Fiber uses wavelength division multiplexing to send multiple signals simultaneously.',
+        difficulty: 'advanced'
+    },
+
+    // More Theory Facts
+    {
+        id: 116,
+        category: 'theory',
+        title: 'Right-Hand Rule',
+        fact: 'The right-hand rule determines the direction of magnetic fields around current-carrying wires!',
+        explanation: 'Point your thumb in current direction, fingers curl in the direction of the magnetic field.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 117,
+        category: 'theory',
+        title: 'Faraday\'s Law',
+        fact: 'Changing magnetic fields induce electric fields, and vice versa!',
+        explanation: 'This fundamental principle explains transformers, generators, and electromagnetic waves.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 118,
+        category: 'theory',
+        title: 'Coulomb\'s Law',
+        fact: 'Like charges repel, unlike charges attract, with force inversely proportional to distance squared!',
+        explanation: 'This electrostatic force law governs all electric interactions at the fundamental level.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 119,
+        category: 'theory',
+        title: 'Wave-Particle Duality',
+        fact: 'Light and electrons behave as both waves and particles!',
+        explanation: 'This quantum mechanical principle explains photoelectric effect and electron diffraction.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 120,
+        category: 'theory',
+        title: 'Conservation Laws',
+        fact: 'Energy, charge, and momentum are always conserved in electrical systems!',
+        explanation: 'These fundamental conservation laws are the basis for all circuit analysis and design.',
+        difficulty: 'intermediate'
+    },
+
+    // More Fun Facts
+    {
+        id: 121,
+        category: 'fun',
+        title: 'Lightning Strikes',
+        fact: 'Lightning strikes Earth about 100 times per second worldwide!',
+        explanation: 'That\'s over 8 million strikes per day, most over oceans but still dangerous.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 122,
+        category: 'fun',
+        title: 'Computer Power Usage',
+        fact: 'Data centers consume about 1% of the world\'s electricity!',
+        explanation: 'That\'s equivalent to the entire energy consumption of countries like Argentina or Netherlands.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 123,
+        category: 'fun',
+        title: 'LED Light Colors',
+        fact: 'LEDs can emit any color of light, including ultraviolet and infrared!',
+        explanation: 'The color depends on the semiconductor material\'s bandgap energy.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 124,
+        category: 'fun',
+        title: 'Magnetic Field Strength',
+        fact: 'Earth\'s magnetic field is about 100 times weaker than a refrigerator magnet!',
+        explanation: 'But it\'s strong enough to protect us from solar wind and cosmic radiation.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 125,
+        category: 'fun',
+        title: 'Circuit Board Layers',
+        fact: 'Modern circuit boards can have up to 50+ copper layers!',
+        explanation: 'High-density interconnect (HDI) boards enable complex routing in small spaces.',
+        difficulty: 'intermediate'
+    },
+
+    // More Career Facts
+    {
+        id: 126,
+        category: 'careers',
+        title: 'EE Salary Ranges',
+        fact: 'Entry-level EEs earn $70k-$90k, while senior engineers can earn $150k+!',
+        explanation: 'Salaries vary by specialization, experience, and location, with Silicon Valley being highest.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 127,
+        category: 'careers',
+        title: 'EE Specializations',
+        fact: 'EEs can specialize in power, RF, digital design, controls, photonics, or biomedical engineering!',
+        explanation: 'The field is incredibly diverse, with opportunities in every industry from aerospace to healthcare.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 128,
+        category: 'careers',
+        title: 'Continuing Education',
+        fact: 'EEs must stay current with rapidly evolving technology through lifelong learning!',
+        explanation: 'The field changes so fast that engineers attend conferences, take courses, and pursue advanced degrees.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 129,
+        category: 'careers',
+        title: 'Global Opportunities',
+        fact: 'EE skills are in demand worldwide, from Silicon Valley to Singapore!',
+        explanation: 'Technology companies in Asia, Europe, and North America all need electrical engineers.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 130,
+        category: 'careers',
+        title: 'EE Problem Solving',
+        fact: 'EEs learn systematic problem-solving that applies to any technical challenge!',
+        explanation: 'The analytical thinking and debugging skills developed in EE transfer to many other fields.',
+        difficulty: 'beginner'
+    },
+
+    // Advanced Component Facts
+    {
+        id: 131,
+        category: 'components',
+        title: 'Carbon Nanotubes',
+        fact: 'Carbon nanotubes can conduct electricity better than copper while being 100 times stronger!',
+        explanation: 'Their unique structure makes them ideal for future nanoelectronics and composite materials.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 132,
+        category: 'components',
+        title: 'Quantum Dots',
+        fact: 'Quantum dots are semiconductor particles so small their properties change with size!',
+        explanation: 'They emit different colors based on size, enabling ultra-precise color displays.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 133,
+        category: 'components',
+        title: 'MEMS Devices',
+        fact: 'Microelectromechanical systems integrate mechanical elements with electronics!',
+        explanation: 'MEMS accelerometers in phones are tiny machines smaller than a grain of sand.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 134,
+        category: 'components',
+        title: 'Superconducting Magnets',
+        fact: 'Superconducting magnets can create magnetic fields 100,000 times stronger than Earth\'s!',
+        explanation: 'They\'re used in MRI machines and particle accelerators, requiring liquid helium cooling.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 135,
+        category: 'components',
+        title: 'Photonic Crystals',
+        fact: 'Photonic crystals can control light propagation like semiconductors control electrons!',
+        explanation: 'They create photonic bandgaps that forbid certain wavelengths from propagating.',
+        difficulty: 'advanced'
+    },
+
+    // Advanced Circuit Facts
+    {
+        id: 136,
+        category: 'circuits',
+        title: 'Delta-Sigma ADCs',
+        fact: 'Delta-sigma converters achieve 24-bit resolution using 1-bit conversion!',
+        explanation: 'They use oversampling and noise shaping to achieve high precision from simple components.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 137,
+        category: 'circuits',
+        title: 'Class D Amplifiers',
+        fact: 'Class D amplifiers achieve 90%+ efficiency by switching instead of linear operation!',
+        explanation: 'They use pulse-width modulation to create analog output from digital switching.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 138,
+        category: 'circuits',
+        title: 'PLL Bandwidth',
+        fact: 'Phase-locked loops can track signals with microhertz accuracy!',
+        explanation: 'Advanced PLLs maintain phase lock even with temperature variations and component drift.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 139,
+        category: 'circuits',
+        title: 'Switched Capacitor Filters',
+        fact: 'Switched capacitor circuits replace resistors with capacitors and switches!',
+        explanation: 'This enables precise, programmable analog filters that can be integrated on silicon.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 140,
+        category: 'circuits',
+        title: 'Neural Networks Hardware',
+        fact: 'Specialized chips can perform billions of multiply-accumulate operations per second!',
+        explanation: 'AI accelerators like TPUs and NPUs are designed specifically for neural network computations.',
+        difficulty: 'advanced'
+    },
+
+    // Advanced Power Facts
+    {
+        id: 141,
+        category: 'power',
+        title: 'Power Electronics Efficiency',
+        fact: 'Modern power supplies achieve 95%+ efficiency through advanced topologies!',
+        explanation: 'Techniques like synchronous rectification and resonant switching minimize losses.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 142,
+        category: 'power',
+        title: 'High-Voltage DC',
+        fact: 'HVDC can transmit power over 1,000 km with only 3% losses!',
+        explanation: 'DC avoids reactive power issues and skin effect losses of AC transmission.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 143,
+        category: 'power',
+        title: 'Power Quality Standards',
+        fact: 'Voltage must stay within ±5% of nominal and frequency within ±0.1 Hz!',
+        explanation: 'IEEE standards ensure equipment works reliably and safely across the power grid.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 144,
+        category: 'power',
+        title: 'Renewable Integration',
+        fact: 'Solar and wind farms require advanced power electronics for grid connection!',
+        explanation: 'Maximum power point tracking and grid-tie inverters ensure efficient, stable power delivery.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 145,
+        category: 'power',
+        title: 'Energy Storage Density',
+        fact: 'Lithium-ion batteries store 100-200 Wh/kg, while gasoline stores 12,000 Wh/kg!',
+        explanation: 'Chemical energy storage is far more energy-dense than electrochemical batteries.',
+        difficulty: 'intermediate'
+    },
+
+    // Advanced Signal Facts
+    {
+        id: 146,
+        category: 'signals',
+        title: 'OFDM Modulation',
+        fact: 'WiFi and 4G/5G use OFDM to send thousands of signals simultaneously!',
+        explanation: 'Orthogonal frequency division multiplexing divides bandwidth into many narrow subcarriers.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 147,
+        category: 'signals',
+        title: 'Spread Spectrum Security',
+        fact: 'Direct sequence spread spectrum can hide signals in noise!',
+        explanation: 'The signal is spread over a wide bandwidth, making it invisible to narrowband receivers.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 148,
+        category: 'signals',
+        title: 'MIMO Technology',
+        fact: 'Multiple-input multiple-output uses multiple antennas for faster wireless speeds!',
+        explanation: 'MIMO exploits multipath propagation to increase data rates without additional bandwidth.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 149,
+        category: 'signals',
+        title: 'Software Defined Radio',
+        fact: 'SDR can receive any radio signal from 1 MHz to 6 GHz with one device!',
+        explanation: 'Digital signal processing replaces traditional analog radio components.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 150,
+        category: 'signals',
+        title: 'Quantum Communication',
+        fact: 'Quantum key distribution can provide theoretically unbreakable encryption!',
+        explanation: 'Any eavesdropping attempt changes the quantum state, alerting communicating parties.',
+        difficulty: 'advanced'
+    },
+
+    // Advanced Theory Facts
+    {
+        id: 151,
+        category: 'theory',
+        title: 'Maxwell\'s Equations',
+        fact: 'Four equations describe all classical electromagnetic phenomena!',
+        explanation: 'Gauss\'s law, Faraday\'s law, Ampere\'s law, and the absence of magnetic monopoles.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 152,
+        category: 'theory',
+        title: 'Information Theory',
+        fact: 'Shannon\'s theorem proves fundamental limits on data compression and transmission!',
+        explanation: 'No compression algorithm can compress data below its entropy, and channel capacity has strict limits.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 153,
+        category: 'theory',
+        title: 'Quantum Electrodynamics',
+        fact: 'QED predicts electron magnetic moment to 12 decimal places accuracy!',
+        explanation: 'The most precise theory in physics, explaining how light and matter interact.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 154,
+        category: 'theory',
+        title: 'Chaos Theory',
+        fact: 'Small changes in initial conditions can cause dramatically different outcomes!',
+        explanation: 'Chaotic systems like oscillators exhibit sensitivity that limits long-term prediction.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 155,
+        category: 'theory',
+        title: 'Relativity in EE',
+        fact: 'Special relativity affects high-speed electron behavior in vacuum tubes!',
+        explanation: 'Electrons moving near light speed have increased mass and different trajectories.',
+        difficulty: 'advanced'
+    },
+
+    // More Fun Advanced Facts
+    {
+        id: 156,
+        category: 'fun',
+        title: 'Quantum Computers',
+        fact: 'Quantum computers could factor 2048-bit numbers in seconds!',
+        explanation: 'Shor\'s algorithm provides exponential speedup for certain mathematical problems.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 157,
+        category: 'fun',
+        title: 'Neural Implants',
+        fact: 'Brain-computer interfaces can already control prosthetic limbs with thoughts!',
+        explanation: 'Implants decode neural signals to control external devices, restoring mobility to paralyzed patients.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 158,
+        category: 'fun',
+        title: 'Space Electronics',
+        fact: 'Spacecraft electronics must withstand radiation 100,000 times stronger than Earth!',
+        explanation: 'Cosmic rays and solar flares require radiation-hardened components and error-correcting memory.',
+        difficulty: 'advanced'
+    },
+    {
+        id: 159,
+        category: 'fun',
+        title: 'Underwater Cables',
+        fact: 'Transatlantic cables carry 99% of international data traffic!',
+        explanation: 'These fiber optic cables span oceans and are maintained by specialized ships.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 160,
+        category: 'fun',
+        title: 'Smart Cities',
+        fact: 'Cities like Singapore use 60,000 sensors to monitor everything from traffic to air quality!',
+        explanation: 'IoT networks create vast amounts of data for optimizing urban infrastructure.',
+        difficulty: 'intermediate'
+    },
+
+    // Final Career Facts
+    {
+        id: 161,
+        category: 'careers',
+        title: 'EE Ethics',
+        fact: 'Engineers must consider safety, privacy, and societal impact of their designs!',
+        explanation: 'Professional engineering codes require balancing innovation with responsibility.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 162,
+        category: 'careers',
+        title: 'Research Careers',
+        fact: 'EE research can lead to Nobel Prizes and fundamental scientific breakthroughs!',
+        explanation: 'Many Nobel laureates in physics work on electrical and electronic phenomena.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 163,
+        category: 'careers',
+        title: 'Consulting Opportunities',
+        fact: 'EE consultants can earn $200+/hour for specialized expertise!',
+        explanation: 'Companies pay premium rates for experts in RF design, power systems, and compliance.',
+        difficulty: 'intermediate'
+    },
+    {
+        id: 164,
+        category: 'careers',
+        title: 'Teaching Careers',
+        fact: 'EE professors shape the next generation of engineers and researchers!',
+        explanation: 'University positions combine research, teaching, and industry collaboration.',
+        difficulty: 'beginner'
+    },
+    {
+        id: 165,
+        category: 'careers',
+        title: 'EE Future',
+        fact: 'The next 50 years will bring quantum computing, brain interfaces, and sustainable energy!',
+        explanation: 'EEs will be at the forefront of solving climate change, healthcare, and information challenges.',
+        difficulty: 'beginner'
     }
 ];
 
