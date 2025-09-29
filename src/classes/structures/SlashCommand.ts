@@ -15,7 +15,7 @@ GNU Affero General Public License for more details.
 You should have received a copy of the GNU Affero General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-import { ActionRowBuilder, APIEmbedField, AutocompleteInteraction, ChatInputCommandInteraction, Interaction, MessageActionRowComponentBuilder, SlashCommandBuilder, SlashCommandOptionsOnlyBuilder, SlashCommandSubcommandsOnlyBuilder } from "discord.js";
+import { ActionRowBuilder, APIEmbedField, AutocompleteInteraction, ChatInputCommandInteraction, Interaction, MessageActionRowComponentBuilder, SlashCommandBuilder, SlashCommandOptionsOnlyBuilder, SlashCommandSubcommandsOnlyBuilder, MessageFlags, ColorResolvable } from "discord.js";
 import { Bot } from "../../index";
 
 export abstract class SlashCommand {
@@ -31,7 +31,19 @@ export abstract class SlashCommand {
         this.data = data.toJSON();
     }
 
-    public async Reply(interaction: Interaction, data: { content?: string, title?: string, url?: string, description: string, fields?: APIEmbedField[], components?: ActionRowBuilder<MessageActionRowComponentBuilder>[], thumbnail?: string, author?: { name: string, iconURL?: string, url?: string }, unixTime?: string, ephemeral?: boolean }) {
+    public async Reply(interaction: Interaction, data: { 
+        content?: string; 
+        title?: string; 
+        url?: string; 
+        description: string; 
+        fields?: APIEmbedField[]; 
+        components?: ActionRowBuilder<MessageActionRowComponentBuilder>[]; 
+        thumbnail?: string; 
+        author?: { name: string; iconURL?: string; url?: string }; 
+        unixTime?: string; 
+        flags?: MessageFlags[]; 
+        color?: ColorResolvable;
+    }) {
         return this.bot.ReplyEmbed(interaction, data);
     }
 }
